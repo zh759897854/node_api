@@ -16,7 +16,7 @@ proxy: {
 ```
 ***
 ### 3.请求接口可用get，post，请求接口固定为 `'/get_data'`，参数为上传的文件名称
-```$xslt
+```
 axios.post('/get_data', { 
     name: encodeURIComponent('test.data')}).then(function (res) {
         console.log(res.data)
