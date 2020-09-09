@@ -19,8 +19,8 @@ proxy: {
 ```
 axios.post('/get_data', { 
     name: encodeURIComponent('test.data')}).then(function (res) {
-        console.log(res.data)
-    }).catch(function (error) {
-        console.log(error);
-    });
+    console.log(res.data)
+}).catch(function (error) {
+    console.log(error);
+});
 ```
